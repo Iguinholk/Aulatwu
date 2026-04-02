@@ -1,11 +1,14 @@
-export default class Person{
+class Person{
     constructor(name) {
         this.name = name;
     }
 
     SayMyName(){
-        return `My name is ${this.name}!`;
+        return `Hello dev ${this.name}!`;
         
     }
 }
 
+module.exports = {
+    Person,
+}
